@@ -18,42 +18,21 @@ class Quiz:
         for idx, option in enumerate(self.options, 1):
             print(f"  {idx}. {option}")
 
+    def to_dict(self):
+        """Quiz 객체를 JSON 저장용 딕셔너리로 변환"""
+        return {
+            "question": self.question,
+            "options": self.options,
+            "answer": self.answer,
+            "category": self.category
+        }
 
-# 시스템 기본 제공 과학·공학 퀴즈 데이터 세트
-DEFAULT_QUIZZES = [
-    Quiz(
-        question="파이썬(Python)에서 리스트의 맨 뒤에 새로운 요소를 추가할 때 사용하는 메서드는?",
-        options=["add()", "append()", "insert()", "push()"],
-        answer=2,
-        category="프로그래밍"
-    ),
-    Quiz(
-        question="비행기가 공중으로 떠오르는 힘인 '양력'을 설명하는 대표적인 유체역학 원리는?",
-        options=["베르누이 정리", "파스칼의 원리", "아르키메데스의 원리", "뉴턴의 쿨롱 법칙"],
-        answer=1,
-        category="항공공학"
-    ),
-    Quiz(
-        question="내연기관 자동차의 4행정 엔진 순서로 올바른 것은?",
-        options=[
-            "흡입 -> 폭발 -> 압축 -> 배기",
-            "흡입 -> 압축 -> 폭발 -> 배기",
-            "압축 -> 흡입 -> 폭발 -> 배기",
-            "폭발 -> 흡입 -> 압축 -> 배기"
-        ],
-        answer=2,
-        category="자동차공학"
-    ),
-    Quiz(
-        question="열역학 제2법칙에 따르면, 고립계 전체의 '이것'은 항상 증가하는 방향으로 변화합니다. '이것'은?",
-        options=["엔탈피", "엔트로피", "탄성력", "점성계수"],
-        answer=2,
-        category="기계공학"
-    ),
-    Quiz(
-        question="생명체 내에서 유전 정보를 담고 있는 물질인 DNA의 기본 구성 단위는?",
-        options=["아미노산", "뉴클레오타이드", "지방산", "글루코스"],
-        answer=2,
-        category="생명공학"
-    )
-]
+    @classmethod
+    def from_dict(cls, data):
+        """딕셔너리 데이터를 받아 Quiz 객체로 복원"""
+        return cls(
+            question=data["question"],
+            options=data["options"],
+            answer=data["answer"],
+            category=data["category"]
+        )
