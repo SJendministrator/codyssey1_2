@@ -1134,6 +1134,7 @@
             "category": "자연과학"
         }
     ],
+    "best_score": 40.0,
     "history": [
         {
             "name": "1",
@@ -1145,6 +1146,13 @@
             "name": "2",
             "score": 50,
             "correct_count": 5,
+            "total_count": 10
+        },
+        {
+            "datetime": "2026-07-31 17:29:33",
+            "name": "snsn",
+            "score": 40.0,
+            "earned_points": 4.0,
             "total_count": 10
         }
     ]
