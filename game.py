@@ -228,3 +228,4 @@ class QuizGameRunner:
             pts = rec.get("earned_points", 0)
             cnt = rec.get("total_count", 0)
             print(f"{idx:02d}. [{dt}] {name} - {score}점 (획득: {pts}/{cnt}개)")
+            

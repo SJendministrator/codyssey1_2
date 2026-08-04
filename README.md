@@ -67,10 +67,11 @@ python main.py
 
 ```text
 .
-├── main.py          # 프로그램 실행 entry point 및 Quiz / QuizGame 클래스 정의
-├── state.json       # 퀴즈 데이터, 최고 점수, 히스토리 저장 파일 (UTF-8)
-├── .gitignore       # Git 추적 제외 파일 목록
-└── README.md        # 프로젝트 설명 문서
+ ├── constants.py   # 상수 및 기본 데이터셋 (이미 존재)
+ ├── quiz.py        # Quiz 모델 클래스 (이미 존재)
+ ├── storage.py     # [NEW] 파일 저장/로드 (JSON I/O)
+ ├── game.py        # [NEW] 퀴즈 진행 및 점수 계산 로직
+ └── main.py        # [최종] 메인 메뉴 실행 및 단순 흐름 제어 (슬림화!)
 
 ```
 
