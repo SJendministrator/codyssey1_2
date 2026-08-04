@@ -1236,48 +1236,6 @@
             "answer": 4,
             "hint": "초록색이다."
         }
-    ],
-    "best_score": 100.0,
-    "history": [
-        {
-            "name": "1",
-            "score": 70,
-            "correct_count": 7,
-            "total_count": 10
-        },
-        {
-            "name": "2",
-            "score": 50,
-            "correct_count": 5,
-            "total_count": 10
-        },
-        {
-            "datetime": "2026-07-31 17:29:33",
-            "name": "snsn",
-            "score": 40.0,
-            "earned_points": 4.0,
-            "total_count": 10
-        },
-        {
-            "datetime": "2026-08-04 17:03:46",
-            "name": "땡이",
-            "score": 63.3,
-            "earned_points": 9.5,
-            "total_count": 15
-        },
-        {
-            "datetime": "2026-08-04 17:13:51",
-            "name": "손재현",
-            "score": 80.0,
-            "earned_points": 8.0,
-            "total_count": 10
-        },
-        {
-            "datetime": "2026-08-04 17:14:16",
-            "name": "sss",
-            "score": 100.0,
-            "earned_points": 1.0,
-            "total_count": 1
-        }
     ]
+   
 }
