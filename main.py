@@ -294,10 +294,10 @@ class QuizGame:
             return
 
         new_quiz = Quiz(
+            category or "일반",
             question,
             options,
             answer,
-            category or "일반",
             hint or "힌트가 없습니다.",
         )
         self.quizzes.append(new_quiz)
