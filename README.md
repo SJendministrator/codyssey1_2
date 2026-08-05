@@ -32,7 +32,7 @@
 
 ### 실행 명령
 ```bash
-python main.py
+python3 main.py
 
 ```
 
@@ -41,6 +41,8 @@ python main.py
 ## 4. 주요 기능 목록 (Features)
 
 ### 메인 기능
+
+![메인 화면](mainscreen.png)
 
 * **퀴즈 풀기 (보너스 기능 포함)**
 * **랜덤 출제**: `random.sample`을 이용한 문제 순서 무작위 섞기
@@ -54,12 +56,20 @@ python main.py
 * **퀴즈 삭제**: 기존 문제 번호를 선택하여 데이터베이스에서 삭제
 * **점수 및 히스토리 확인**: 역대 최고 점수 및 과거 플레이 기록(날짜/시간, 점수, 푼 문제 수) 조회
 
+![퀴즈 리스트 열람](quizlist.png)
+![퀴즈 추가 기능](addquiz.png)
+![추가된 퀴즈 리스트](quizlist2.png)
+
+![게임 종료 시](exitgame.png)
+
 ### 예외 처리 및 방어 로직 (Robustness)
 
 * **공통 입력 검증**: 입력 앞뒤 공백 자동 제거(`strip`), 빈 입력 및 범위를 벗어난 메뉴/정답 선택 시 재입력 요청
 * **타입 예외 방어**: 문자열/숫자 변환 오류(`ValueError`) 시 안내 메시지 출력 후 안전하게 복구
 * **강제 종료 방지**: `Ctrl+C` (`KeyboardInterrupt`) 또는 `EOFError` 발생 시 비정상 종료 없이 안전하게 저장 후 종료
 * **데이터 무결성 보장**: `state.json` 미존재 또는 파일 손상/형식 오류 시 기본 퀴즈 데이터로 자동 복구
+
+![예외 처리](exprossece.png)
 
 ---
 
@@ -82,6 +92,8 @@ python main.py
 * **경로**: `./state.json` (프로젝트 루트 디렉터리)
 * **역할**: 영속적 데이터 관리를 위해 퀴즈 목록, 최고 점수, 플레이 히스토리를 저장 및 로드합니다.
 * **인코딩**: `UTF-8`
+
+
 
 ### JSON Schema 예시
 
@@ -115,3 +127,8 @@ python main.py
 * `main` 브랜치 외 기능별 브랜치 활용 및 병합(Merge) 진행
 * `git clone` 및 `git pull`을 통한 저장소 동기화 및 원격 실습 완료
 
+![clone_pull test](clone_test1.png)
+![clone_pull test](clone_test2.png)
+![clone_pull test](clone_test3.png)
+![clone_pull test](clone_test4.png)
+![clone_pull test](clone_test5.png)
