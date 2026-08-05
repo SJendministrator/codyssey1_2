@@ -100,7 +100,7 @@ python3 main.py
 - `KeyboardInterrupt (Ctrl + C)` 및 `EOFError` 발생 시 저장 후 정상 종료
 - `state.json`이 없거나 손상된 경우 기본 데이터로 자동 복구
 
-![예외 처리](exprossece.png)
+![예외 처리](src/exprossece.png)
 
 ---
 
