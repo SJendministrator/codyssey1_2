@@ -1,0 +1,169 @@
+sujeong83092301@c6r2s2 codyssey1_2 % git log --graph          
+* commit e040a28f06611e144b3be6281cd43e45bfda1f8b (HEAD -> main, origin/main, origin/HEAD)
+| Author: 박수정 <sujeong83092301@c6r2s2.codyssey.kr>
+| Date:   Wed Aug 5 14:37:21 2026 +0900
+| 
+|     README.md W
+| 
+* commit c432cb2c57114ef8e43d30f7b2fc54d56737751e
+| Author: 박수정 <sujeong83092301@c6r2s2.codyssey.kr>
+| Date:   Wed Aug 5 14:35:36 2026 +0900
+| 
+|     README.md W
+| 
+* commit c1cfb97b64431bb183704aafddb2b03a8ee70214
+| Author: 박수정 <sujeong83092301@c6r2s2.codyssey.kr>
+| Date:   Wed Aug 5 14:29:29 2026 +0900
+| 
+|     README.md W
+| 
+* commit 400c4bf7e9a3bf7001f14dc93bf9483894de05f9
+| Author: 박수정 <sujeong83092301@c6r2s2.codyssey.kr>
+| Date:   Wed Aug 5 14:28:19 2026 +0900
+| 
+|     README.md W
+| 
+* commit b9bccec974bbc351f9c2a0d4dfcbc5e91bde45f8
+| Author: 박수정 <sujeong83092301@c6r2s2.codyssey.kr>
+| Date:   Wed Aug 5 13:58:04 2026 +0900
+| 
+|     README.md W
+| 
+* commit 151eeccf8362dd8bc14fbdd11f0d2d4ef593e3ec
+| Author: 박수정 <sujeong83092301@c6r2s2.codyssey.kr>
+| Date:   Wed Aug 5 13:55:48 2026 +0900
+| 
+|     README.md W
+| 
+* commit 410f4b16cce8d0c0ec168d8fb604c902ff7c07b6
+| Author: 박수정 <sujeong83092301@c6r2s2.codyssey.kr>
+| Date:   Wed Aug 5 13:54:47 2026 +0900
+| 
+|     README.md W
+| 
+* commit f4e773d7d6a09afa4d1ddca3d5f8fe119761a2fd
+| Author: 박수정 <sujeong83092301@c6r2s2.codyssey.kr>
+| Date:   Wed Aug 5 13:53:58 2026 +0900
+| 
+|     README.md W
+| 
+* commit 2c53348b5e0554eabdeff76fcb5ae2d329b6a426
+| Author: 박수정 <sujeong83092301@c6r1s8.codyssey.kr>
+| Date:   Tue Aug 4 17:59:30 2026 +0900
+| 
+|     refactoring
+| 
+* commit ceee362b931ff1fe78f5134372519022bd2925f9
+| Author: 박수정 <sujeong83092301@c6r1s8.codyssey.kr>
+| Date:   Tue Aug 4 17:51:39 2026 +0900
+| 
+|     refactoring
+| 
+* commit 984673814654c15f2851692d0318ccf742f4a5c7
+| Author: 박수정 <sujeong83092301@c6r1s8.codyssey.kr>
+| Date:   Tue Aug 4 17:48:06 2026 +0900
+| 
+|     refactoring
+| 
+* commit 42acd967fcd7d6e4858ac5cf75b43f406f0f1db2
+| Author: 박수정 <sujeong83092301@c6r1s8.codyssey.kr>
+| Date:   Tue Aug 4 17:36:06 2026 +0900
+| 
+|     M pictures
+| 
+* commit f45f921e8a58586ee166784e4780f52ec8abf132
+| Author: 박수정 <sujeong83092301@c6r1s8.codyssey.kr>
+| Date:   Tue Aug 4 15:03:00 2026 +0900
+| 
+|     README.md W
+| 
+* commit fdb3cc9466ed260a6649fd5c15060722b39a0138
+| Author: 박수정 <sujeong83092301@c6r1s8.codyssey.kr>
+| Date:   Tue Aug 4 15:00:24 2026 +0900
+| 
+|     README.md W
+| 
+* commit 6510df599e9507c627448e47c57789aacbee110d
+| Author: 박수정 <sujeong83092301@c6r1s8.codyssey.kr>
+| Date:   Tue Aug 4 14:48:30 2026 +0900
+| 
+|     README.md add
+| 
+* commit 7a540e3b9b67aa46114efd559b71680ddbbddcf1
+| Author: 박수정 <sujeong83092301@c6r1s8.codyssey.kr>
+| Date:   Tue Aug 4 14:38:43 2026 +0900
+| 
+|     clone test
+| 
+* commit 6dfd028ff6d42645d59d6c23065c511ef38d0fa0
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 18:05:49 2026 +0900
+| 
+|     main fix
+| 
+* commit b01a893e1cd2921f1653a34cd3a3cea3fde52ec4
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 17:52:00 2026 +0900
+| 
+|     힌트 기능 예외 처리 로직 추가 필요
+| 
+* commit e1a699e82c8543f247a2186307486f03551a24ad
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 17:26:11 2026 +0900
+| 
+|     temp push
+| 
+* commit f185594190aa20c9fe22c777800b21fbc7c4adc8
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 17:16:35 2026 +0900
+| 
+|     json 병합 및 스크린샷 첨부
+| 
+* commit 18627976bd0f1dc2618f2e634bc46b0ee942aea7
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 16:03:59 2026 +0900
+| 
+|     Refactor: QuizGame 클래스 구현으로 클래스 분리 및 state.json 단일 파일 저장 구조 적용
+| 
+* commit 2c3356b09bb32f4e970fd2811fa10192784d90ee
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 15:42:34 2026 +0900
+| 
+|     Refactor: quiz.py 내 불필요한 DEFAULT_QUIZZES 리스트 제거 및 클래스 구조 정돈
+| 
+* commit 59efa92c7162ed88da9675320387220f3e13228d
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 15:41:51 2026 +0900
+| 
+|     Refactor: quiz.py 내 불필요한 DEFAULT_QUIZZES 리스트 제거 및 클래스 구조 정돈
+| 
+* commit 3f0352c71563c96dbda940c1530996c7079244ef
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 15:25:51 2026 +0900
+| 
+|     퀴즈 목록 조회 및 새 퀴즈 구현, 주석 추가
+| 
+* commit dfa7efd8b4cbd429c7908b5295a09d2cf2206090 (origin/feature/play-quiz)
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 15:00:08 2026 +0900
+| 
+|     퀴즈 풀기 메인 로직 및 점수 계산 기능
+| 
+* commit 19a43cb335652ac875d9b123301ae0f2e5153801
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 14:57:15 2026 +0900
+| 
+|     문제 추가
+| 
+* commit b9724b5a8109ca289961f2d15ad78df639fe70e7
+| Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+| Date:   Fri Jul 31 14:54:08 2026 +0900
+| 
+|     Feat: 메인 메뉴 루프 및 입력 예외 처리 기본 틀 작성
+| 
+* commit 46307a2495fec7122677e0c94c0c1a238afa6ba7
+  Author: 박수정 <sujeong83092301@c5r2s6.codyssey.kr>
+  Date:   Fri Jul 31 14:17:35 2026 +0900
+  
+      Chore: 프로젝트 초기 설정 (.gitignore, README.md 생성)
+(END)
