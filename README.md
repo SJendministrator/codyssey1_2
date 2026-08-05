@@ -127,7 +127,7 @@ python3 main.py
 * `main` 브랜치 외 기능별 브랜치 활용 및 병합(Merge) 진행
 * `git clone` 및 `git pull`을 통한 저장소 동기화 및 원격 실습 완료
 
-![clone_pull test](clone_test1.png)
+![clone_pull test](src\clone_test1.png)
 ![clone_pull test](clone_test2.png)
 ![clone_pull test](clone_test3.png)
 ![clone_pull test](clone_test4.png)
