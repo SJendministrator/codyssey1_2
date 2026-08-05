@@ -42,7 +42,7 @@ python3 main.py
 
 ### 메인 기능
 
-![메인 화면](mainscreen.png)
+![메인 화면](src/mainscreen.png)
 
 * **퀴즈 풀기 (보너스 기능 포함)**
 * **랜덤 출제**: `random.sample`을 이용한 문제 순서 무작위 섞기
@@ -56,11 +56,11 @@ python3 main.py
 * **퀴즈 삭제**: 기존 문제 번호를 선택하여 데이터베이스에서 삭제
 * **점수 및 히스토리 확인**: 역대 최고 점수 및 과거 플레이 기록(날짜/시간, 점수, 푼 문제 수) 조회
 
-![퀴즈 리스트 열람](quizlist.png)
-![퀴즈 추가 기능](addquiz.png)
-![추가된 퀴즈 리스트](quizlist2.png)
+![퀴즈 리스트 열람](src/quizlist.png)
+![퀴즈 추가 기능](src/addquiz.png)
+![추가된 퀴즈 리스트](src/quizlist2.png)
 
-![게임 종료 시](exitgame.png)
+![게임 종료 시](src/exitgame.png)
 
 ### 예외 처리 및 방어 로직 (Robustness)
 
@@ -127,8 +127,8 @@ python3 main.py
 * `main` 브랜치 외 기능별 브랜치 활용 및 병합(Merge) 진행
 * `git clone` 및 `git pull`을 통한 저장소 동기화 및 원격 실습 완료
 
-![clone_pull test](src\clone_test1.png)
-![clone_pull test](clone_test2.png)
-![clone_pull test](clone_test3.png)
-![clone_pull test](clone_test4.png)
-![clone_pull test](clone_test5.png)
+![clone_pull test](src/clone_test1.png)
+![clone_pull test](src/clone_test2.png)
+![clone_pull test](src/clone_test3.png)
+![clone_pull test](src/clone_test4.png)
+![clone_pull test](src/clone_test5.png)
